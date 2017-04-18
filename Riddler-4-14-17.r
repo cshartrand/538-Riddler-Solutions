@@ -1,7 +1,7 @@
 # 4/14/17 FiveThirty Eight Riddler 
 # The Supreme Court Conundrum
 # Christopher Shartrand
-
+##############################################################
 years = 5000 #initialize what we define as a long term for the measure of vacancies
 runs = 5000 #initialize how many simulations we will run
 lr.vacant = numeric(runs) #to hold the long run vacancies for all of our simulations
