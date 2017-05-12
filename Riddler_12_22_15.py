@@ -1,3 +1,6 @@
+#FiveThirtyEight Riddler 12-22-15
+#The Sibling Cellphone Distraction Problem
+#by Chris Shartrand
 import numpy as np
 from random import randint
 
