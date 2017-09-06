@@ -1,7 +1,7 @@
-#Five Thirty Eight Riddler Express Solution
+#Five Thirty Eight Riddler Express Solution 9/1/17
 #by Chris Shartrand
 import numpy as np
-trials = 100000
+trials = 1000000
 count_list = np.zeros(trials)
 for i in range(0,trials):
     free_throw_count = 0
@@ -15,5 +15,5 @@ for i in range(0,trials):
         else:
             streak = 0
     count_list[i] = free_throw_count
-average = np.mean(count_list) #approximately
+average = np.mean(count_list) #approximately 1420
 print average
